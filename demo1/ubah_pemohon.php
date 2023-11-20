@@ -92,7 +92,7 @@
 												</div>
 												<div class="form-group">
 													<label>Status Pernikahan</label>
-													<select name="status_warga" class="form-control">
+													<select name="status_pernikahan" class="form-control">
 														<option disabled="" selected="">Pilih Status Pernikahan</option>
 														<option value='Kawin'>Kawin</option>
 														<option value='Belum Kawin'>Belum Kawin</option>
@@ -133,8 +133,8 @@ if(isset($_POST['ubah'])){
 	agama='$agama',
 	alamat='$alamat',
 	telepon='$telepon',
-	status_warga='$status_warga'
-	status_pernikahan= 'status_pernikahan'
+	status_warga='$status_warga',
+	status_pernikahan= '$status_pernikahan'
 	WHERE nik=$_SESSION[nik]";
 	$query = mysqli_query($konek,$sql);
 

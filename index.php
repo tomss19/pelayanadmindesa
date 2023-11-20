@@ -45,7 +45,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="main/img/logo4.png" width="150" height="54" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="main/img/logo.jpeg" width="80" height="54" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
@@ -210,7 +210,7 @@
 
     <section id="contact">
         <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6177756555217!2d110.84666041431609!3d-6.816256968564331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70c4e731de9701%3A0xc9561da6c650e3c4!2sKantor%20Kelurahan%20Wergu%20Wetan!5e0!3m2!1sen!2sid!4v1639534764090!5m2!1sen!2sid"  width="100%" height="650px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="lokasi kelurahan"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.56155287599!2d106.6166514!3d-6.1788675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff261a6d794d%3A0x4d7fa273c25aebb5!2sKantor%20Kelurahan%20Pabuaran!5e0!3m2!1sen!2sid!4v1700494126522!5m2!1sen!2sid" width="100%" height="650px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="lokasi kelurahan"></iframe>
         </div>
     </section>
     <!--/#bottom-->
