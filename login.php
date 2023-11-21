@@ -28,7 +28,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="main/img/logo4.png" width="150" height="54" alt="logo">
+                <img src="main/img/logo13-bg.png" width="154" height="84" alt="logo">
               </div>
               <h4>LOGIN PEMOHON</h4>
               <h6 class="font-weight-light"></h6>

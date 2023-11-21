@@ -108,7 +108,7 @@
 <body>
 <table border="0" align="center">
         <tr>
-        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+        <td><img src="img/logo.jpeg" width="70" height="87" alt=""></td>
         <td></td>
         <td></td>
         <td></td>

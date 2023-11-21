@@ -33,7 +33,8 @@
 			<div class="logo-header" data-background-color="blue">
 				
 				<a href="#" class="logo">
-					<img src="../main/img/logo5.png" width="125" alt="navbar brand" class="navbar-brand">
+					<img src="../main/img/logo13-bg.png" width="115" alt="navbar brand" class="navbar-brand">
+					<title>Desa Pabuaran </title>
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">

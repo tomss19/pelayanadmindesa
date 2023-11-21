@@ -36,7 +36,7 @@
 
     <table border="0" align="center">
         <tr>
-        <td><img src="img/kudus.png" width="70" height="87" alt=""></td>
+        <td><img src="img/logo.jpeg" width="70" height="87" alt=""></td>
         <td></td>
         <td></td>
         <td></td>
@@ -59,9 +59,9 @@
             <td>
                 <center>
                     <font size="4">PEMERINTAHAN KABUPATEN TANGGERANG</font><br>
-                    <font size="4">KECAMATAN KOTA PABUARAN</font><br>
-                    <font size="5"><b>KELURAHAN PABUARAN</b></font><br>
-                    <font size="2"><i>JL. Simalakama no .09</i></font><br>
+                    <font size="4">KECAMATAN BALARAJA</font><br>
+                    <font size="5"><b>KELURAHAN DESA PABUARAN</b></font><br>
+                    <font size="2"><i>JL. Aria Santika Rt 2 Rw 6 Banten 15114</i></font><br>
                 </center>
             </td>
         <td></td>
