@@ -106,7 +106,7 @@
                                                             <td><?php echo $alamat;?></td>
                                                             <td><?php echo $jekel;?></td>
                                                             <td><?php echo $status_warga;?></td>
-                                                            <td><<?php echo $status_pernikahan;?></td>
+                                                            <td><?php echo $status_pernikahan;?></td>
                                                             <td><?php echo $password;?></td>
                                                             <td><?php echo $hak_akses;?></td>
                                                             <td>

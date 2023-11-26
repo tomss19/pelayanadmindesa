@@ -49,7 +49,8 @@
 														<option value="Kerja">Kerja</option>
 														<option value="Belum Bekerja">Belum Bekerja</option>
 													</select>
-													<div class="form-group">
+												</div>
+												<div class="form-group">
 													<label>Status Pernikahan</label>
 													<select name="status_pernikahan" class="form-control">
 														<option disabled="" selected="">Pilih Status Warga</option>
@@ -94,10 +95,10 @@ if(isset($_POST['simpan'])){
 	$tempat = $_POST['tempat'];
 	$tanggal = $_POST['tanggal'];
 	$status_warga = $_POST['status_warga'];
-	$stats_pernikahan = $POST['status-pernikahan'];
 	$alamat = $_POST['alamat'];
+	$stats_pernikahan = $POST['status_pernikahan'];
 
-	$sql = "INSERT INTO data_user (nik,password,hak_akses,nama,jekel,tempat_lahir,tanggal_lahir,status_warga,alamat) VALUES ('$nik','$password','$hak_akses','$nama','$jekel','$tempat','$tanggal','$status_warga','$alamat')";
+	$sql = "INSERT INTO data_user (nik,password,hak_akses,nama,jekel,tempat_lahir,tanggal_lahir,status_warga,alamat,status_pernikahan) VALUES ('$nik','$password','$hak_akses','$nama','$jekel','$tempat','$tanggal','$status_warga','$alamat','$status_pernikahan')";
 	$query = mysqli_query($konek,$sql);
 
 	if($query){

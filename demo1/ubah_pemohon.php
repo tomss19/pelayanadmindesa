@@ -14,7 +14,7 @@
 		$alamat = $data['alamat'];
 		$telepon = $data['telepon'];
 		$status_warga = $data['status_warga'];
-		$staus_pernikahan = $data['status_pernikahan'];
+		$status_pernikahan = $data['status_pernikahan'];
 	}
 	
 ?>
@@ -60,8 +60,6 @@
 													<label>Tanggal Lahir</label>
 													<input type="date" name="tgl" class="form-control" value="<?= $tanggal;?>">
 												</div>
-											</div>
-											<div class="col-md-6 col-lg-6">
 												<div class="form-group">
 													<label>Agama</label>
 													<select name="agama" class="form-control">
@@ -73,6 +71,8 @@
 														<option <?php if( $agama=='Budha'){echo "selected"; } ?> value='Budha'>Budha</option>
 													</select>
 												</div>
+											</div>
+											<div class="col-md-6 col-lg-6">
 												<div class="form-group">
 													<label for="comment">Alamat</label>
 													<textarea class="form-control" name="alamat" rows="5"><?= $alamat?></textarea>
@@ -85,17 +85,17 @@
 													<label>Status Warga</label>
 													<select name="status_warga" class="form-control">
 														<option disabled="" selected="">Pilih Status Warga</option>
-														<option value='Sekolah'>Sekolah</option>
-														<option value='Kerja'>Kerja</option>
-														<option value='Belum Bekerja'>Belum Bekerja</option>
+														<option <?php if( $status_warga=='Sekolah'){echo "selected"; } ?> value='Sekolah'>Sekolah</option>
+														<option <?php if( $status_warga=='Kerja'){echo "selected"; } ?> value='Kerja'>Kerja</option>
+														<option <?php if( $status_warga=='Belum Bekerja'){echo "selected"; } ?> value='Belum Bekerja'>Belum Bekerja</option>
 													</select>
 												</div>
 												<div class="form-group">
 													<label>Status Pernikahan</label>
 													<select name="status_pernikahan" class="form-control">
 														<option disabled="" selected="">Pilih Status Pernikahan</option>
-														<option value='Kawin'>Kawin</option>
-														<option value='Belum Kawin'>Belum Kawin</option>
+														<option <?php if( $status_pernikahan=='Kawin'){echo "selected"; } ?> value='Kawin'>Kawin</option>
+														<option <?php if( $status_pernikahan=='Belum Kawin'){echo "selected"; } ?> value='Belum Kawin'>Belum Kawin</option>
 													</select>
 												</div>
 											</div>

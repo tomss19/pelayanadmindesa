@@ -16,7 +16,7 @@
 		$tanggal = $data['tanggal_lahir'];
 		$alamat = $data['alamat'];
 		$status_warga = $data['status_warga'];
-		$status_pernikahan = $data ['status_pernikahan']
+		$status_pernikahan = $data ['status_pernikahan'];
 		$hak_akses = $data['hak_akses'];
 
     }
@@ -114,7 +114,7 @@ if(isset($_POST['ubah'])){
 		$tanggal = $data['tanggal'];
 		$alamat = $data['alamat'];
 		$status_warga = $data['status_warga'];
-		$status_pernikahan = $data['status_pernikahan']
+		$status_pernikahan = $data['status_pernikahan'];
 
     $sql = "UPDATE data_user SET
     password='$password',
