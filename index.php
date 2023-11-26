@@ -65,20 +65,24 @@
     <!--/header-->
 
     <section id="cta2">
+        <div class="wow fadeIn" id="img-layer-transparent" data-wow-duration="300ms" data-wow-delay="0ms">
+        
         <div class="container">
-            <div class="text-center">
-                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms"><span>PELAYANAN</span> ADMINISTRASI <br> DESA PABUARAN</h2>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">KLIK LOGIN UNTUK REQUEST PEMBUATAN SURAT KETERANGAN
+            <div class="text-center">       
+                
+                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms"><span>PELAYANAN</span> ADMINISTRASI <br> DESA PABUARAN</h2>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">KLIK LOGIN UNTUK REQUEST PEMBUATAN SURAT KETERANGAN
                 <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <div class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"">
+                        <div class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
                            <!-- Button trigger modal -->
                            <a href="login.php" type="submit" class="btn btn-primary">Login</a>
                            <a href="register.php" type="submit" class="btn btn-primary">Daftar</a>
                         </div>
                     </div>
                 </div>
-                <img class="img-responsive wow fadeIn" src="main/img/cta2/cta2-bg1.jpg" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+
+                <!-- <img class="img-responsive wow fadeIn" src="main/images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="400ms"> -->
             </div>
         </div>
     </section>
