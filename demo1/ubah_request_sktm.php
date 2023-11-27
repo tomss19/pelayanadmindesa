@@ -14,6 +14,7 @@ if(isset($_GET['id_request_sktm'])){
     $ktp = $data['scan_ktp'];
     $kk = $data['scan_kk'];
     $keperluan = $data['keperluan'];
+	$status = $data['status'];
 }
 ?>
 <div class="page-inner">
@@ -41,7 +42,7 @@ if(isset($_GET['id_request_sktm'])){
 												</div> -->
 												<div class="form-group">
 													<label>Keperluan</label>
-													<input type="text" name="keperluan" class="form-control" value="<?= $keperluan?>" placeholder="Keperluan Anda.." autofocus>
+													<input type="text" name="keperluan" class="form-control" value="<?= $keperluan?>" placeholder="Keperluan Anda.." <?php echo ($status != '0') ? 'readonly' : 'autofocus'; ?>>
 												</div>
 											</div>
 											<div class="col-md-6 col-lg-6">	
@@ -51,21 +52,29 @@ if(isset($_GET['id_request_sktm'])){
     
 												</div>	
 												<div class="form-group">
-													<input type="file" name="ktp" class="form-control" size="37">
+													<input type="file" name="ktp" class="form-control" size="37" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
 												</div>
 												<div class="form-group">
 													<label>Scan KK</label><br>
 													<img src="../dataFoto/scan_kk/<?= $kk;?>" width="200" height="100" alt="">
 												</div>
                                                 <div class="form-group">
-													<input type="file" name="kk" class="form-control" size="37">
+													<input type="file" name="kk" class="form-control" size="37" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
 												</div>
 											</div>
 									</div>
 								</div>
 								<div class="card-action">
-									<button name="ubah" class="btn btn-success">Ubah</button>
+									<button name="ubah" class="btn btn-success" <?php echo ($status != '0') ? 'disabled' : ''; ?>>Ubah</button>
 									<a href="?halaman=tampil_status" class="btn btn-default">Batal</a>
+
+									<?php
+										if ($status != '0') {
+									?>
+									<p class="card-text"><small class="text-danger fw-bold">! Tidak bisa melakukan perubahan dokumen sudah diproses</small></p>
+									<?php
+										}
+									?>
 								</div>
 							</div>
 						</div>
