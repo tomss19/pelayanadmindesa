@@ -48,7 +48,7 @@ if(isset($_GET['id_request_sku'])){
                                                     <img src="../dataFoto/scan_ktp/<?= $ktp;?>" width="200" height="100" alt="">
 												</div>	
 												<div class="form-group">
-													<input type="file" name="ktp" class="form-control" size="37" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
+													<input type="file" name="ktp" class="form-control" size="37" accept=".png, .jpg, .jpeg" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
 												</div>
                                                 <div class="form-group">
 													<label>Scan KTP</label><br>
@@ -56,7 +56,7 @@ if(isset($_GET['id_request_sku'])){
 												</div>	
 												<div class="form-group">
 													<label>Scan KK</label>
-													<input type="file" name="kk" class="form-control" size="37" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
+													<input type="file" name="kk" class="form-control" size="37" accept=".png, .jpg, .jpeg" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
 												</div>
 											</div>
 									</div>

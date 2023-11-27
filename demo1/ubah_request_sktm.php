@@ -52,14 +52,14 @@ if(isset($_GET['id_request_sktm'])){
     
 												</div>	
 												<div class="form-group">
-													<input type="file" name="ktp" class="form-control" size="37" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
+													<input type="file" name="ktp" class="form-control" size="37" accept=".png, .jpg, .jpeg" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
 												</div>
 												<div class="form-group">
 													<label>Scan KK</label><br>
 													<img src="../dataFoto/scan_kk/<?= $kk;?>" width="200" height="100" alt="">
 												</div>
                                                 <div class="form-group">
-													<input type="file" name="kk" class="form-control" size="37" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
+													<input type="file" name="kk" class="form-control" size="37" accept=".png, .jpg, .jpeg" <?php echo ($status != '0') ? 'disabled' : ''; ?>>
 												</div>
 											</div>
 									</div>

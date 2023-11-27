@@ -43,11 +43,11 @@
 											<div class="col-md-6 col-lg-6">		
 												<div class="form-group">
 													<label>Scan KTP</label>
-													<input type="file" name="ktp" class="form-control" size="37" required>
+													<input type="file" name="ktp" class="form-control" size="37" accept=".png, .jpg, .jpeg" required>
 												</div>
 												<div class="form-group">
 													<label>Scan KK</label>
-													<input type="file" name="kk" class="form-control" size="37" required>
+													<input type="file" name="kk" class="form-control" size="37" accept=".png, .jpg, .jpeg" required>
 												</div>
 											</div>
 									</div>
