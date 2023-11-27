@@ -12,7 +12,7 @@
 <div class="page-inner">
 					<div class="row">
 						<div class="col-md-12">	
-						<form method="POST" enctype="multipart/form-data">
+						<form method="POST" enctype="multipart/form-data" onsubmit="return confirm('Apakah formulir sudah diisi dengan benar?');">
 							<div class="card">
 								<div class="card-header">
 									<div class="card-title">FORM TAMBAH REQUEST SKTM</div>
@@ -37,7 +37,7 @@
 												</div> -->
 												<div class="form-group">
 													<label>Keperluan</label>
-													<input type="text" name="keperluan" class="form-control" placeholder="Keperluan Anda.." autofocus>
+													<input type="text" name="keperluan" class="form-control" placeholder="Keperluan Anda.." autofocus required>
 												</div>
 											</div>
 											<div class="col-md-6 col-lg-6">		

@@ -12,7 +12,7 @@
 <div class="page-inner">
 					<div class="row">
 						<div class="col-md-12">	
-						<form method="POST" enctype="multipart/form-data">
+						<form method="POST" enctype="multipart/form-data" onsubmit="return confirm('Apakah formulir sudah diisi dengan benar?');">
 							<div class="card">
 								<div class="card-header">
 									<div class="card-title">FORM TAMBAH REQUEST SURAT KETERANGAN USAHA</div>
@@ -29,11 +29,11 @@
 												</div>
 												<div class="form-group">
 													<label>Usaha</label>
-													<input type="text" name="usaha" class="form-control" placeholder="Usaha Anda.." autofocus>
+													<input type="text" name="usaha" class="form-control" placeholder="Usaha Anda.." autofocus required>
 												</div>
 												<div class="form-group">
 													<label>Keperluan</label>
-													<input type="text" name="keperluan" class="form-control" placeholder="Keperluan Anda.." autofocus>
+													<input type="text" name="keperluan" class="form-control" placeholder="Keperluan Anda.." required>
 												</div>
 											</div>
 											<div class="col-md-6 col-lg-6">		
