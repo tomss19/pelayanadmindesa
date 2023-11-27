@@ -22,7 +22,7 @@ if(isset($_GET['id_request_skd'])){
 <div class="page-inner">
 					<div class="row">
 						<div class="col-md-12">	
-						<form method="POST" enctype="multipart/form-data">
+						<form method="POST" enctype="multipart/form-data" onsubmit="return confirm('Apakah perubahan formulir sudah diisi dengan benar?');">
 							<div class="card">
 								<div class="card-header">
 									<div class="card-title">UBAH DATA REQUEST SURAT KETERANGAN DOMISILI</div>
