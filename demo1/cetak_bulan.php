@@ -218,7 +218,7 @@
                 <td style="text-align: center"><b>Lurah Desa Pabuaran</b></td>
             </tr>
             <tr>
-                <td style="text-align: center"><b>Agus Supriyanto</b></td>
+                <td style="text-align: center"><b>Romdi</b></td>
             </tr>
         </table>
 </body>

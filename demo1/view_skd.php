@@ -225,7 +225,7 @@
                                         <tr>
                                             <th></th>
                                             <th width="100px"></th>
-                                            <th>Kudus, <?php echo $acc;?></th>
+                                            <th>Tangerang, <?php echo $acc;?></th>
                                         </tr>
                                         <tr>
                                             <td>Tanda tangan <br> Yang bersangkutan </td>
@@ -282,7 +282,7 @@
                                         <tr>
                                             <td><b style="text-transform:uppercase"><u>(<?php echo $nama;?>)</u></b></td>
                                             <td></td>
-                                            <td><b><u>(AGUS SUPRIYANTO)</u></b></td>
+                                            <td><b><u>(Romdi)</u></b></td>
                                         </tr>
                                     </table>
                                 </table>
