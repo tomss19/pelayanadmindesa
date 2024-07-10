@@ -1,11 +1,12 @@
 <?php
-    include('settings.php');
+    $HOME_PATH = 'pelayanadmindesa';
+    $DB_NAME = 'surat';
 
     date_default_timezone_set('Asia/Jakarta');
     $hostname = 'localhost';
     $username = 'root';
     $password = '';
-    $database = DB_NAME;
+    $database = $DB_NAME;
 
     $konek = mysqli_connect($hostname,$username,$password,$database);
 ?>
