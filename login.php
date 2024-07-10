@@ -49,7 +49,7 @@
                   
                 </div>
                 <div class="mb-2">
-                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/surat-keterangan-desa/">BATAL</a>
+                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/<?php echo HOME_PATH ?>/">BATAL</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                   Belum memiliki akun? <a href="register.php" class="text-primary">Buat</a>

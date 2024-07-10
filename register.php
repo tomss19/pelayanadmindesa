@@ -1,4 +1,4 @@
-<?php include 'konek.php';?>
+<?php  include 'konek.php'; ?>
 <link href="demo1/css/sweetalert.css" rel="stylesheet" type="text/css">
 <script src="demo1/js/jquery-2.1.3.min.js"></script>
 <script src="demo1/js/sweetalert.min.js"></script> 
@@ -68,7 +68,7 @@
                   </button>
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/surat-keterangan-desa/">BATAL</a>
+                  <a class="btn btn-block btn-danger btn-lg font-weight-medium auth-form-btn" href="http://localhost/<?php echo HOME_PATH ?>/">BATAL</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
                   Sudah memiliki akun? <a href="login.php" class="text-primary">Login</a>
